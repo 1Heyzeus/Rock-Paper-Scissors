@@ -38,15 +38,15 @@ function playRound(playerSelection, computerSelection) {
    
   } 
 
+//repeat playRound 5 times and keep score of winner
 function game(){
-   for (i=0;i<=4;i++){//repeat playRound 5 times and keep score of winner
+   for (i=0;i<=4;i++){ 
         let playerSelection = window.prompt().toLowerCase();
         let computerSelection = getComputerSelection();
         console.log(playRound(playerSelection, computerSelection));
         
    }
 } 
-
 
 game()
 
