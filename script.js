@@ -6,7 +6,7 @@ return choiceArray[(Math.floor(Math.random()*choiceArray.length))];
 }
 let compWins = 0;
 let humanWins = 0;
-
+//function to display score
 function score() {
     console.log(humanWins);
     console.log(compWins);
